@@ -272,6 +272,10 @@ footer{
         padding:10px !important;
     }
 
+    .form-floating{
+        font-size: 0.7rem !important;
+    }
+    
     
 
 }
@@ -282,6 +286,15 @@ footer{
         border-bottom:3px var(--primary-color) solid ;
         margin-bottom: 50px;
         padding-bottom: 50px;
+    }
+
+}
+
+@media(max-width:350px){
+    .my-5{
+        margin-top:10px !important;
+        margin-bottom:10px !important;
+
     }
 
 }
